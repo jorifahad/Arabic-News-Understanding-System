@@ -1,14 +1,9 @@
 # Unified Arabic News Understanding System
 
-This project is a unified Arabic Natural Language Processing system that analyzes news articles through three parallel tasks:
-
-- Classifies the article topic using CAMeLBERT-MSA
-- Generates an abstractive three-point summary using AraT5
-- Extracts Who, What, When, Where, and Source using Gemini 2.5 Flash
-
-Each model processes the same cleaned article independently. The outputs are then combined into one end-to-end news analysis result.
+Arabic NLP project for unified news understanding through topic classification, abstractive summarization, and 5W information extraction. The system uses CAMeLBERT-MSA, AraT5, and Gemini to analyze Arabic articles and produce a topic label, concise summary, and structured event details.
 
 ## ⚙️ System Workflow
+This project is a unified Arabic Natural Language Processing system that analyzes news articles through three parallel tasks:
 
 ```text
 Arabic News Article
