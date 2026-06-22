@@ -115,5 +115,5 @@ ARAT5_MODEL_DIR = "Models/AraT5_Summarization"
 ```
 
 ### 4. Run the End-to-End System
-[End_To_End.jpeg
-](End_To_End.jpeg)
+
+![End-to-End Result](End_To_End.jpeg)
