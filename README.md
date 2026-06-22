@@ -70,50 +70,6 @@ Gemini produced structured JSON containing:
 - Source
 
 The model showed strong formatting consistency and returned `غير مذكور` when information was unavailable instead of inventing unsupported details.
-
-## 🚀 How to Run the Project
-
-### 1. Install Dependencies
-
-```bash
-pip install torch transformers datasets pandas numpy matplotlib scikit-learn google-generativeai sentencepiece accelerate
-```
-
-### 2. Configure the Gemini API Key
-
-Do not place the real key directly in `config.py`.
-
-Use:
-
-```python
-import os
-
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-```
-
-Set the key before running the notebook.
-
-Windows PowerShell:
-
-```powershell
-$env:GEMINI_API_KEY="your_api_key"
-```
-
-Mac/Linux:
-
-```bash
-export GEMINI_API_KEY="your_api_key"
-```
-
-### 3. Update Model Paths
-
-Update the saved model paths inside `News_Ai.ipynb`:
-
-```python
-CAMEL_MODEL_DIR = "Models/CAMeLBERT_classifier"
-ARAT5_MODEL_DIR = "Models/AraT5_Summarization"
-```
-
-### 4. Result the End-to-End System
+### Result the End-to-End System
 
 ![End-to-End Result](End_To_End.jpeg)
