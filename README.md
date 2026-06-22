@@ -116,4 +116,4 @@ ARAT5_MODEL_DIR = "Models/AraT5_Summarization"
 
 ### 4. Run the End-to-End System
 [End_To_End.jpeg
-](https://github.com/jorifahad/Arabic-News-Understanding-System/blob/main/End_To_End.jpeg)
+](End_To_End.jpeg)
